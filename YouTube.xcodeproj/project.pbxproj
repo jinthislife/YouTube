@@ -14,6 +14,7 @@
 		78F75B131ED2B60F00236BFC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B121ED2B60F00236BFC /* Extensions.swift */; };
 		78F75B161ED2B6C700236BFC /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B151ED2B6C700236BFC /* VideoCell.swift */; };
 		78F75B191ED2C53D00236BFC /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B181ED2C53D00236BFC /* MenuBar.swift */; };
+		78F75B1C1ED3B35500236BFC /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B1B1ED3B35500236BFC /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		78F75B121ED2B60F00236BFC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		78F75B151ED2B6C700236BFC /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 		78F75B181ED2C53D00236BFC /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		78F75B1B1ED3B35500236BFC /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		78F75AFE1ECD5DAF00236BFC /* YouTube */ = {
 			isa = PBXGroup;
 			children = (
+				78F75B1A1ED3B34300236BFC /* Model */,
 				78F75B171ED2B6E800236BFC /* Controller */,
 				78F75B141ED2B6B500236BFC /* View */,
 				78F75B111ED2B5E000236BFC /* Helpers */,
@@ -92,6 +95,14 @@
 				78F75B011ECD5DAF00236BFC /* HomeController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		78F75B1A1ED3B34300236BFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78F75B1B1ED3B35500236BFC /* Video.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78F75B021ECD5DAF00236BFC /* HomeController.swift in Sources */,
+				78F75B1C1ED3B35500236BFC /* Video.swift in Sources */,
 				78F75B161ED2B6C700236BFC /* VideoCell.swift in Sources */,
 				78F75B131ED2B60F00236BFC /* Extensions.swift in Sources */,
 				78F75B001ECD5DAF00236BFC /* AppDelegate.swift in Sources */,
