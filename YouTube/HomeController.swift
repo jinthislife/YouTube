@@ -101,9 +101,11 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
     func handleSearch() {
         
     }
+   
+    let settingsLauncher = SettingsLauncher()
     
     func handleMore() {
-        
+        settingsLauncher.showSettings()
     }
     
     let menuBar: MenuBar = {
