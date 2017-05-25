@@ -16,6 +16,7 @@
 		78F75B191ED2C53D00236BFC /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B181ED2C53D00236BFC /* MenuBar.swift */; };
 		78F75B1C1ED3B35500236BFC /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B1B1ED3B35500236BFC /* Video.swift */; };
 		78F75B1E1ED555E300236BFC /* SettingsLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B1D1ED555E300236BFC /* SettingsLauncher.swift */; };
+		78F75B201ED6705900236BFC /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B1F1ED6705900236BFC /* SettingsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		78F75B181ED2C53D00236BFC /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		78F75B1B1ED3B35500236BFC /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		78F75B1D1ED555E300236BFC /* SettingsLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLauncher.swift; sourceTree = "<group>"; };
+		78F75B1F1ED6705900236BFC /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				78F75B151ED2B6C700236BFC /* VideoCell.swift */,
 				78F75B181ED2C53D00236BFC /* MenuBar.swift */,
+				78F75B1F1ED6705900236BFC /* SettingsCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				78F75B1E1ED555E300236BFC /* SettingsLauncher.swift in Sources */,
 				78F75B131ED2B60F00236BFC /* Extensions.swift in Sources */,
 				78F75B001ECD5DAF00236BFC /* AppDelegate.swift in Sources */,
+				78F75B201ED6705900236BFC /* SettingsCell.swift in Sources */,
 				78F75B191ED2C53D00236BFC /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
