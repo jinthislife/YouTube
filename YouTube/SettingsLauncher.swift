@@ -9,13 +9,22 @@
 import UIKit
 
 class Setting: NSObject {
-    let name: String
+    let name: SettingName
     let imageName: String
     
-    init(name: String, imageName: String) {
+    init(name: SettingName, imageName: String) {
         self.name = name
         self.imageName = imageName
     }
+}
+
+enum SettingName: String {
+    case Cancel = "Cancel"
+    case Settings = "Settings"
+    case TermsPrivacy = "Terms & Privacy"
+    case SendFeedback = "Send Feedback"
+    case Help = "Help"
+    case SwitchAccount = "Switch Account"
 }
 
 class SettingsLauncher: NSObject, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -33,7 +42,14 @@ class SettingsLauncher: NSObject, UICollectionViewDelegate, UICollectionViewData
     let cellHeight: CGFloat = 50
     
     let settings: [Setting] = {
-        return [Setting(name: "Settings", imageName: "settings"), Setting(name: "Terms & privacy policy", imageName: "privacy"), Setting(name: "Send Feedback", imageName: "feedback"), Setting(name: "Help", imageName: "help"), Setting(name: "Switch Account", imageName: "switch_account"), Setting(name: "Cancel", imageName: "cancel")]
+        let cancelSetting = Setting(name: .Cancel, imageName: "cancel")
+        let settingSetting = Setting(name: .Settings, imageName: "settings")
+        let termPrivacySetting = Setting(name: .TermsPrivacy, imageName: "privacy")
+        let sendFeedbackSetting = Setting(name: .SendFeedback, imageName: "feedback")
+        let helpSetting = Setting(name: .Help, imageName: "help")
+        let switchAccountSetting = Setting(name: .SwitchAccount, imageName: "switch_account")
+        
+        return [settingSetting, termPrivacySetting, sendFeedbackSetting, helpSetting, switchAccountSetting, cancelSetting]
     }()
     
     var homeController: HomeController?
@@ -74,7 +90,7 @@ class SettingsLauncher: NSObject, UICollectionViewDelegate, UICollectionViewData
             }
         }) { (completed: Bool) in
             UIView.animate(withDuration: 0.5) {
-                if setting.name != "", setting.name != "Cancel" {
+                if setting.name != .Cancel {
                     self.homeController?.showControllerForSetting(setting: setting)
                 }
             }
