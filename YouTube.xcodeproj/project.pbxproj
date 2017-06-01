@@ -17,6 +17,7 @@
 		78F75B1C1ED3B35500236BFC /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B1B1ED3B35500236BFC /* Video.swift */; };
 		78F75B1E1ED555E300236BFC /* SettingsLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B1D1ED555E300236BFC /* SettingsLauncher.swift */; };
 		78F75B201ED6705900236BFC /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B1F1ED6705900236BFC /* SettingsCell.swift */; };
+		78F75B221EDFB6A600236BFC /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B211EDFB6A600236BFC /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		78F75B1B1ED3B35500236BFC /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		78F75B1D1ED555E300236BFC /* SettingsLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLauncher.swift; sourceTree = "<group>"; };
 		78F75B1F1ED6705900236BFC /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		78F75B211EDFB6A600236BFC /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		78F75AFE1ECD5DAF00236BFC /* YouTube */ = {
 			isa = PBXGroup;
 			children = (
+				78F75B231EDFB6B900236BFC /* ApiService */,
 				78F75B1A1ED3B34300236BFC /* Model */,
 				78F75B141ED2B6B500236BFC /* View */,
 				78F75B171ED2B6E800236BFC /* Controller */,
@@ -109,6 +112,14 @@
 				78F75B1B1ED3B35500236BFC /* Video.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		78F75B231EDFB6B900236BFC /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				78F75B211EDFB6A600236BFC /* ApiService.swift */,
+			);
+			name = ApiService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				78F75B161ED2B6C700236BFC /* VideoCell.swift in Sources */,
 				78F75B1E1ED555E300236BFC /* SettingsLauncher.swift in Sources */,
 				78F75B131ED2B60F00236BFC /* Extensions.swift in Sources */,
+				78F75B221EDFB6A600236BFC /* ApiService.swift in Sources */,
 				78F75B001ECD5DAF00236BFC /* AppDelegate.swift in Sources */,
 				78F75B201ED6705900236BFC /* SettingsCell.swift in Sources */,
 				78F75B191ED2C53D00236BFC /* MenuBar.swift in Sources */,
