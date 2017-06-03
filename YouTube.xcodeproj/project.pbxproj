@@ -19,6 +19,8 @@
 		78F75B201ED6705900236BFC /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B1F1ED6705900236BFC /* SettingsCell.swift */; };
 		78F75B221EDFB6A600236BFC /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B211EDFB6A600236BFC /* ApiService.swift */; };
 		78F75B251EE192AD00236BFC /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B241EE192AD00236BFC /* FeedCell.swift */; };
+		78F75B271EE24C7300236BFC /* TrendingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B261EE24C7300236BFC /* TrendingCell.swift */; };
+		78F75B291EE2502700236BFC /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F75B281EE2502700236BFC /* SubscriptionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		78F75B1F1ED6705900236BFC /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		78F75B211EDFB6A600236BFC /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		78F75B241EE192AD00236BFC /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		78F75B261EE24C7300236BFC /* TrendingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingCell.swift; sourceTree = "<group>"; };
+		78F75B281EE2502700236BFC /* SubscriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				78F75B181ED2C53D00236BFC /* MenuBar.swift */,
 				78F75B1F1ED6705900236BFC /* SettingsCell.swift */,
 				78F75B241EE192AD00236BFC /* FeedCell.swift */,
+				78F75B261EE24C7300236BFC /* TrendingCell.swift */,
+				78F75B281EE2502700236BFC /* SubscriptionCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 			files = (
 				78F75B021ECD5DAF00236BFC /* HomeController.swift in Sources */,
 				78F75B251EE192AD00236BFC /* FeedCell.swift in Sources */,
+				78F75B271EE24C7300236BFC /* TrendingCell.swift in Sources */,
 				78F75B1C1ED3B35500236BFC /* Video.swift in Sources */,
 				78F75B161ED2B6C700236BFC /* VideoCell.swift in Sources */,
 				78F75B1E1ED555E300236BFC /* SettingsLauncher.swift in Sources */,
@@ -205,6 +212,7 @@
 				78F75B221EDFB6A600236BFC /* ApiService.swift in Sources */,
 				78F75B001ECD5DAF00236BFC /* AppDelegate.swift in Sources */,
 				78F75B201ED6705900236BFC /* SettingsCell.swift in Sources */,
+				78F75B291EE2502700236BFC /* SubscriptionCell.swift in Sources */,
 				78F75B191ED2C53D00236BFC /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
